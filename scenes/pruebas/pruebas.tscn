@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://kdyj4tbyw7vb"]
+
+[ext_resource type="Script" path="res://scripts/pruebas/prueba1.gd" id="1_f2ffn"]
+
+[node name="pruebas" type="Node2D"]
+script = ExtResource("1_f2ffn")
+
+[node name="txt_clicks" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "buenas"
